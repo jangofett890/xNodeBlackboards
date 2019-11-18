@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using XNode;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard {
     [NodeTint(0.1f, 0.1f, 0.1f)]
     [CreateNodeMenu("")]
     [Serializable]

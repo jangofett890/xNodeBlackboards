@@ -1,4 +1,4 @@
-﻿using Neon.XNodeBlackboards.Graphing.Blackboard.Editor;
+﻿using Neon.xNodeBlackboards.Graphing.Blackboard.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using UnityEngine;
 using XNode;
 using XNodeEditor;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard {
 
     [CustomNodeGraphEditor(typeof(BlackBoardGraph), "URPG.Settings")]
     public class BlackboardGraphEditor : NodeGraphEditor {

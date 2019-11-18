@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using XNodeEditor;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard.Editor {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard.Editor {
     [CustomNodeEditor(typeof(Blackboard))]
     public class BlackboardNodeEditor : NodeEditor {
 
@@ -152,6 +152,7 @@ namespace Neon.XNodeBlackboards.Graphing.Blackboard.Editor {
         }
 
         public override void OnBodyGUI() {
+
             if (target.graph.nodes[target.graph.nodes.Count - 1] != target && createdInstance == null) {
                 window.MoveNodeToTop(target);
             }

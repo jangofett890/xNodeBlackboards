@@ -4,13 +4,13 @@ using UnityEngine;
 using XNode;
 using XNodeEditor;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard {
     [CreateNodeMenu("Blackboard/Get Blackboard Values from Graph")]
     public class GetBlackboardValueFromGraph : Node {
         [Input(connectionType = ConnectionType.Override)] public BlackBoardGraph bbGraph;
 
         public override void OnCreateConnection(NodePort from, NodePort to) {
-            if (to == GetPort("bbGraph")) {
+            if (to == GetPort("bbGraph") && from.ValueType.IsAssignableFrom(typeof(BlackBoardGraph))) {
                 bbGraph = (BlackBoardGraph)from.GetOutputValue();
                 foreach (BlackboardObject bbo in bbGraph.BlackboardValues) {
                     if (HasPort(bbo.name)) {

@@ -1,10 +1,10 @@
-﻿using Neon.XNodeBlackboards.Utility;
+﻿using Neon.xNodeBlackboards.Utility;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard {
     [System.Serializable]
     public class BlackboardNonSerializedVariable : BlackboardObject {
         //The ID used to find the actual object

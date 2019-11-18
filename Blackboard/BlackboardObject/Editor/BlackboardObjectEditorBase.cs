@@ -5,7 +5,7 @@ using UnityEditor;
 using System;
 using XNodeEditor;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard.Editor.Internal {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard.Editor.Internal {
     public class BlackboardObjectEditorBase<T, A, K> where A : Attribute, BlackboardObjectEditorBase<T, A, K>.IBlackboardObjectEditorAttrib where T : BlackboardObjectEditorBase<T, A, K> where K : ScriptableObject {
         private static Dictionary<Type, Type> editorTypes;
         private static Dictionary<K, T> editors = new Dictionary<K, T>();

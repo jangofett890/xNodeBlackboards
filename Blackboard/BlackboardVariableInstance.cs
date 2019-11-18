@@ -5,7 +5,7 @@ using UnityEngine;
 using XNode;
 using XNodeEditor;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard {
     [CreateNodeMenu("")]
     public class BlackboardVariableInstance : Node {
         [SerializeField] public BlackboardObject value;

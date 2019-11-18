@@ -6,7 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using XNode;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard {
     public class BlackBoardGraph : NodeGraph {
 
         public Action BlackboardValuesSet = () => { };

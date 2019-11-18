@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard {
     [Serializable]
     public class BlackboardObject : ScriptableObject {
 
@@ -40,7 +40,7 @@ namespace Neon.XNodeBlackboards.Graphing.Blackboard {
                 return null;
             }
             set {
-                if (value == null && !typeof(UnityEngine.Object).IsAssignableFrom(Type)) {
+                if (value == null) {
                     return;
                 } else if (value == null) {
                     objVal = null;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-namespace Neon.XNodeBlackboards.Utility {
+namespace Neon.xNodeBlackboards.Utility {
     public static class NonSerializableHelper {
         public static object FindObjectWithID(string ID, Type type) {
             if (type == typeof(GameObject)) {

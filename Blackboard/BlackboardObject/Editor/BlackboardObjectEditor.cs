@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Neon.XNodeBlackboards.Graphing.Blackboard.Editor.Internal;
+using Neon.xNodeBlackboards.Graphing.Blackboard.Editor.Internal;
 using System;
 using UnityEditor;
 using XNodeEditor;
 using System.Linq;
 
-namespace Neon.XNodeBlackboards.Graphing.Blackboard.Editor {
+namespace Neon.xNodeBlackboards.Graphing.Blackboard.Editor {
     [CustomBlackboardObjectEditor(typeof(BlackboardObject))]
     public class BlackboardObjectEditor : BlackboardObjectEditorBase<BlackboardObjectEditor, BlackboardObjectEditor.CustomBlackboardObjectEditorAttribute, BlackboardObject> {
 
